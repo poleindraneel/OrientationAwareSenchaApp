@@ -9,7 +9,7 @@ Ext.application({
     profiles: ['Phone', 'Tablet'],
     launch: function () {
         Ext.fly('appLoadingIndicator').destroy();
-    },
+    }, 
 });
 
 Ext.define('OrientationTutorialApp.controller.main', {
